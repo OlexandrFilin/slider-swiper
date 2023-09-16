@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-JS-Team05/",
+    "build": "vite build --base=/slider-swiper",
     "preview": "vite preview"
   },
   "devDependencies": {

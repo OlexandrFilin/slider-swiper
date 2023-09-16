@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  /* background-color: #333; */
+  font-family: Arial, Helvetica;
+}
+.wraper {
+  padding: 30px;
+  min-height: 100%;
+}
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+.image-slide {
+  margin-left: 255px;
+}
+.image-slider {
+  padding: 30px 0 70px 0;
+}
+.image-slider_image {
+  text-align: center;
+}
+
+.image-slider_image {
+  width: 100%;
+}
+.swiper {
+  width: 1080px;
+  height: 700px;
+}
+.hero-cook-img,
+.hero-tried-img,
+.hero-tried-img-flll {
+  width: 300px;
+}
+.swiper-hero .swiper-pagination {
+  bottom: 0;
+}
+
+.swiper-hero .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #4f4;
+}
+
+.hero-container {
+  width: 375px;
+  display: flex;
+  column-gap: 8px;
+  margin-top: 48px;
+  /* outline: 1px solid red; */
+  overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .hero-container {
+    width: 748px;
+    column-gap: 16px;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .hero-container {
+    width: 590px;
+  }
+}
+.hero-img-cook-div {
+  width: 80px;
+  height: 280px;
+  /* outline: 1px solid green; */
+}
+@media only screen and (min-width: 768px) {
+  .hero-img-cook-div {
+    width: 137px;
+    height: 442px;
+  }
+}
+.hero-img-div {
+  /* outline: 1px solid blue; */
+  width: 200px;
+  border-radius: 20px;
+  padding-top: 58px;
+  background-color: #050505;
+}
+@media only screen and (min-width: 768px) {
+  .hero-img-div {
+    width: 351px;
+  }
+}
+
+.hero-img-div-fill {
+  display: block;
+  width: 351px;
+}
+.hero-tried-img {
+  width: 157px;
+  height: 142px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+  object-fit: cover;
+}
+.hero-img-srink {
+  flex-shrink: 0;
+}
+.hero-tried-img-flll {
+  width: 351px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  background-color: #050505;
+}
+@media only screen and (min-width: 768px) {
+  .hero-tried-img-flll {
+    height: 442px;
+  }
+}
+
+.hero-cook-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.hero-name-treat {
+  color: #f8f8f899;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4; /* 140% */
+  text-transform: uppercase;
+
+  /* width: 276px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.hero-country-treat {
+  color: #f8f8f833;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
